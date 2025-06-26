@@ -1,5 +1,8 @@
-## Aurdino code for Smart-Dustbin
+# Project Overview
 
+This project automates a dustbin to open the lid automatically when someone approaches using an ultrasonic sensor and servo motor.
+
+## Aurdino code for Smart-Dustbin
 #include <Servo.h>   //servo library
 Servo servo;     
 int trigPin = 5;    
@@ -51,11 +54,6 @@ if ( dist<50 ) {
 }
 Serial.print(dist);
 } 
-
-# Smart Dustbin Project using Arduino
-
-This project automates a dustbin to open the lid automatically when someone approaches using an ultrasonic sensor and servo motor.
-
 ## 🧰 Components Used
 - Arduino Uno
 - HC-SR04 Ultrasonic Sensor
@@ -72,8 +70,6 @@ This project automates a dustbin to open the lid automatically when someone appr
 | Servo Signal     | 3           |
 | VCC and GND      | 5V/GND      |
 
-![Circuit Diagram](images/prototype.jpg)
-
 ## 🚀 How to Run
 1. Connect the circuit as per the diagram.
 2. Upload the `SmartDustbin.ino` file using Arduino IDE.
@@ -81,4 +77,7 @@ This project automates a dustbin to open the lid automatically when someone appr
 
 ## 📄 License
 This project is open-source under the MIT License.
+
+## Circuit Diagram
+https://circuitdigest.com/sites/default/files/circuitdiagram_mic/Smart-Dustbin-Circuit.jpg
 

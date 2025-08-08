@@ -1,0 +1,14 @@
+🧰Components Used
+1.Arduino Uno
+2.HC-SR04 Ultrasonic Sensor
+3.SG90 Servo Motor
+4.Jumper Wires
+5.9V Battery
+6.Breadboard
+
+🔌 Circuit Connections
+1.Component	   Arduino Pin
+2.Ultrasonic Trig  9
+3.Ultrasonic Echo  10
+4.Servo Signal	   3
+5.VCC and GND	   5V/GND

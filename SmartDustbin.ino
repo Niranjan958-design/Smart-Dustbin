@@ -8,6 +8,7 @@ void setup() {
 Serial.begin(9600); servo.attach(servoPin);
 pinMode(trigPin, OUTPUT);
 pinMode(echoPin, INPUT);
+
 servo.write(0); //close cap on power on delay(100); servo.detach(); }
 
 void measure() {
